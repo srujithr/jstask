@@ -13,9 +13,9 @@ covid_data = [
 
 //1. district having Highest +ve case - 
 
-// a=covid_data.reduce((x1,x2)=>x1[2]>x2[2]?x1:x2);
-// let b=a[1];
-// console.log(b);
+a=covid_data.reduce((x1,x2)=>x1[2]>x2[2]?x1:x2);
+let b=a[1];
+console.log(b);
 
 
 

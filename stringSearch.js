@@ -27,10 +27,10 @@ let o = too.includes('ain');
 console.log(too);
 
 let tos = "The rain in SPAIN stays mainly in the plain";
-let l = tos.startsWith('heloo');
+let l = tos.startsWith('ain');
 console.log(l);
 
 let to = "The rain in SPAIN stays mainly in the plain";
-let u = to.endsWith('heloo');
+let u = to.endsWith('ain');
 console.log(u);
 

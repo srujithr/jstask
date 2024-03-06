@@ -8,20 +8,20 @@
 // console.log('-------------------------------------------------------------')
 
 
-// products.map(p=>p.pName).forEach(p=> console.log(p))
+products.map(p=>p.pName).forEach(p=> console.log(p))
 
 
-// products.filter(p=>p.display='lcd').forEach(p=>console.log(p))
+products.filter(p=>p.display='lcd').forEach(p=>console.log(p))
 
-// products.filter(p=>p.band=='5g').forEach(item=>console.log(item.pName))
+products.filter(p=>p.band=='5g').forEach(item=>console.log(item.pName))
 
-// products.sort((p1,p2)=>p2.price-p1.price).forEach(p=>console.log(p.pName))
+products.sort((p1,p2)=>p2.price-p1.price).forEach(p=>console.log(p.pName))
 
-// coslty=products.reduce((p1,p2)=>p1.price>p2.price?p1:p2)
-// console.log(coslty.pName);
+coslty=products.reduce((p1,p2)=>p1.price>p2.price?p1:p2)
+console.log(coslty.pName);
 
-// cheap=products.reduce((p1,p2)=>p1.price<p2.price?p1:p2)
-// console.log(cheap.pName);
+cheap=products.reduce((p1,p2)=>p1.price<p2.price?p1:p2)
+console.log(cheap.pName);
 
 
 
